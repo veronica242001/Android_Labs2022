@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyApp</string>
+
+    <string name="hello">Hello </string>
+    <string name="hello_world">Hello world!</string>
+    <string name="name">Name</string>
+    <string name="say_hi">Say Hi</string>
+    <string name="error_msg">Name field must be completed</string>
+
+</resources>
