@@ -2,8 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.myapp">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:name=".lab3.MyApplication"
+        android:usesCleartextTraffic = "true"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -14,7 +16,7 @@
             android:name=".lab1.MainActivity">
         </activity>
         <activity android:name=".lab1.SecondActivity"> </activity>
-        <activity android:name=".lab3.MainActivityLab3"
+        <activity android:name=".lab4.MainActivityLab4"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
